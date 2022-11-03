@@ -1,10 +1,12 @@
 function displayImgs(data) {
     let images = data.message
+    let imgContainer = document.querySelector("#dog-images")
+    imgContainer.innerHTML = ""
     images.forEach((img, index) => {
         let newImg = document.createElement("img")
         newImg.id = `dog-img${index+1}`
         newImg.src = img
-        document.body.appendChild(newImg)
+        imgContainer.appendChild(newImg)
     })
 }
 
