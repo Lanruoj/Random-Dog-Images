@@ -1,0 +1,1 @@
+A simple web page that generate three random dog images from the <a href="https://dog.ceo/dog-api/">Dog API</a> using JavaScript DOM manipulation.
