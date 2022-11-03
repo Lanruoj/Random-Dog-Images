@@ -10,7 +10,6 @@ function displayImgs(data) {
 
 
 const button = document.querySelector("#generate")
-
 button.addEventListener("click", (event) => {
     event.preventDefault()
     let breedInput = document.querySelector("#breed-input").value
